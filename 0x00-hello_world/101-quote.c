@@ -3,7 +3,7 @@
 #include <unistd.h>
 /**
  * main - main func
- * Return: Return 1
+ * Return: Return 0
  */
 int main(void)
 {
