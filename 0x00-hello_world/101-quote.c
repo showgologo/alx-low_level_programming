@@ -2,8 +2,9 @@
 #include <string.h>
 #include <unistd.h>
 /**
- * main - main block
- * Return: 1
+ * main- Entry point
+ *
+ * Return: Always 0 (Succes)
  */
 int main(void)
 {
