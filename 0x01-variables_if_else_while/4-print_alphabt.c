@@ -1,11 +1,20 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 /**
- * main - main block
- * Description: Get a random number and print the number
- * and if it is positive, negative, or zero
+ * main - This is the  main block
+ * Description: Use `putchar` to print all letters but the letter 'q' and 'e'.
  * Return: 0
  */
 int main(void)
 {
+	char i = 'a';
+
+	while (i <= 'z')
+	{
+		if (i != 'q' && i != 'e')
+			putchar(c);
+		c++;
+	}
+	putchar('\n');
+
+	return (0);
+}
