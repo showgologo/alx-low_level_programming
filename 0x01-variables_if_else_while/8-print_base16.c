@@ -1,11 +1,27 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 /**
- * main - main block
- * Description: Get a random number and print the number
- * and if it is positive, negative, or zero
- * Return: 0
+ * main - This is the main block
+ * Description: print num zero to nine a to f
+ * Return: Return  0
  */
 int main(void)
 {
+	int a;
+
+	for (a = 0; a < 10; a++)
+	{
+		putchar(a + '0');
+	}
+
+	char i = 'a';
+
+	while (i <= 'f')
+	{
+		putchar(i);
+		i++;
+	}
+
+	putchar('\n');
+
+	return (0);
+}
