@@ -3,7 +3,8 @@
 #include <stdlib.h>
 /**
  * main - Main code goes here
- * Description: Get a number at random and print the number sign(Positive or negative)
+ * Description: Get a number at random and
+ * print the number sign(Positive or negative)
  * Return: Returns 0
  */
 int main(void)
