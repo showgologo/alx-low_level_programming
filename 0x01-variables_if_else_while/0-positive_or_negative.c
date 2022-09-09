@@ -1,8 +1,8 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
 /**
- * main: Main code goes here
+ * main - Main code goes here
  * Description: Get a number at random and print the number sign(Positive or negative)
  * Return: Returns 0
  */
