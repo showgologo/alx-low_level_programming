@@ -1,11 +1,20 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 /**
- * main - main block
- * Description: Get a random number and print the number
- * and if it is positive, negative, or zero
- * Return: 0
+ * main - This is the main block
+ * Description: print num zero to nine
+ * Return: Return  0
  */
 int main(void)
 {
+	int a = 0;
+
+	while (a < 10)
+	{
+		putchar("%d", a);
+		a++;	
+	}
+
+	putchar('\n');
+
+	return (0);
+}
