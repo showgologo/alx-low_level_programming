@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: print single digit number seperated 
- * by , and space
+ * Description: print single digit number seperated
+ * by comma and space
  * Return: Return 0
  */
 int main(void)
