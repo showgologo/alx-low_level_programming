@@ -1,11 +1,28 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 /**
- * main - main block
- * Description: Get a random number and print the number
- * and if it is positive, negative, or zero
- * Return: 0
+ * main - This is the main block
+ * Description: Print double digits from 0 to 99.
+ * Return: Return 0
  */
 int main(void)
 {
+	int i, j, k;
+
+	for (i = 0; i < 100; i++)
+	{
+		j = i / 10;
+		k = i % 10;
+
+		putchar(j + '0');
+		putchar(k + '0');
+
+		if (i < 99)
+		{
+			putchar(44);
+			putchar(32);
+		}
+	}
+	putchar('\n');
+
+	return (0);
+}
