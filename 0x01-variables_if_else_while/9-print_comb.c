@@ -3,9 +3,19 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: Get a random number and print the number
- * and if it is positive, negative, or zero
- * Return: 0
+ * Description: print single digit number seperated 
+ * by , and space
+ * Return: Return 0
  */
 int main(void)
 {
+	int a = 0;
+
+	while (a < 10)
+	{
+		putchar (a + '0');
+		putchar (',');
+		putchar (' ');
+	}
+	putchar('\n');
+}
