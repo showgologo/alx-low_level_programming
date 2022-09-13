@@ -6,8 +6,7 @@
  * Return: Program returns 0 when negative
  * return postive when 1 and 0 when equal to zero
  */
-
-int print_sign(int n);
+int print_sign(int n)
 {
 	if (n > 0)
 	{
