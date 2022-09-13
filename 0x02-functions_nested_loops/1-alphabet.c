@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * main - this the main
- * print_alphabet - print alphabet
+ * print_alphabet - this the main
  * Description: Functions Nested loops
  * Return: Program returns 0
  */
