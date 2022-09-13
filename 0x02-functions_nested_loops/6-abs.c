@@ -5,7 +5,7 @@
  * Description: Functions Nested loops
  */
 
-int _abs(int)
+int _abs(int absolute)
 {
 	if (absolute < 0)
 	{
