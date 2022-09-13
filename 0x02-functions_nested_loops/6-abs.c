@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _abs - this convert all numbers to postive
- * @n: int type number
- * Description: Functions Nested loops
+ * @absolute: int type number
+ * Return: absolute value of a number
  */
 
 int _abs(int absolute)
