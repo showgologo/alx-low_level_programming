@@ -1,30 +1,29 @@
 #include "main.h"
 /**
- * print_sign - this the main
- * @n: character type
+ * print_sign - Print the sign of a number
+ * @n: Type integer and can eiher be a positive of negative
  * Description: Functions Nested loops
- * Return: Program returns 0
+ * Return: Program returns 0 when negative
+ * return postive when 1 and 0 when equal to zero
  */
 
 int print_sign(int n);
 {
-	char n = 0; greater = '+'; lower = '-'; equal = '0';
 
 	if (n > 0)
 	{
-		_putchar(greater);
+		_putchar('+');
 		return (1);
 	}
 	else if (n < 0)
 	{
-		_putchar(lower);
+		_putchar('-');
 		return (-1);
 	}
 	else
 	{
-		_putchar(equal);
+		_putchar('0');
 		return (0);
 	}
-	_putchar('\n');
 
 }
