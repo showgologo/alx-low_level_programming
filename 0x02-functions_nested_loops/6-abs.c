@@ -1,6 +1,18 @@
 #include "main.h"
 /**
- * main - this the main
+ * _abs - this convert all numbers to postive
+ * @n: int type number
  * Description: Functions Nested loops
- * Return: Program returns 0
  */
+
+int _abs(int)
+{
+	if (absolute < 0)
+	{
+		return (absolute * -1);
+	}
+	else
+	{
+		return (absolute);
+	}
+}
